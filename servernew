@@ -1,0 +1,6 @@
+import socket
+import sys
+
+
+port=sys.argv[1]
+ss=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
