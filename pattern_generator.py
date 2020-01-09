@@ -19,7 +19,17 @@ print(pattern)
 
 item = input("enter string to find offset ")
 
-index1 = pattern.find(item)
+#index1 = pattern.find(item)
+indexes = [] 
 
-print(index1)
+item_length = len(item)
+
+for i in range(0,len(pattern),item_length):
+    temp = pattern[i:i+item_length]
+    if temp == item:
+        indexes.append(i)
+
+for every in indexes:
+    print(every)
+
 
