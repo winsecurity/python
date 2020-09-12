@@ -1,8 +1,7 @@
 import socket
-import sys
 
-#ip=sys.argv[1]
-#port=sys.argv[2]
+
+
 ip="127.0.0.1"
 port=1300
 mycs=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
