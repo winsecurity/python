@@ -24,7 +24,7 @@ indexes = []
 
 item_length = len(item)
 
-for i in range(0,len(pattern),item_length):
+for i in range(0,len(pattern)):
     temp = pattern[i:i+item_length]
     if temp == item:
         indexes.append(i)
